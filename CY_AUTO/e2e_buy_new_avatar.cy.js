@@ -3,8 +3,8 @@ describe('Покупка аватара', function () {
 
          cy.visit('https://pokemonbattle.ru/'); 
 
-         cy.get('input[type="email"]').type('mklvbeatz228@gmail.com');
-         cy.get('input[type="password"]').type('MKLVbeatz228@@@');
+         cy.get('input[type="email"]').type('email');
+         cy.get('input[type="password"]').type('password');
          cy.get('button[type="submit"]').click();
          cy.wait(2000);
 
